@@ -678,11 +678,135 @@ a {
 	width: 100%;
 	height: 220px;
 }
-.selector4 .list .list_innt{
+
+.selector4 .list .list_innt {
 	transition-delay: .4s;
-    transition-duration: 1.5s;
-    transition-timing-function: ease;
-    transform: perspective(2500px) rotateY(0);
-    backface-visibility: hidden;
-    transition-property: transform;
+	transition-duration: 1.5s;
+	transition-timing-function: ease;
+	transform: perspective(2500px) rotateY(0);
+	backface-visibility: hidden;
+	transition-property: transform;
+}
+
+.section5_regard {
+	text-align: center;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #334455;
+	/* width: 950px; */
+	height: 250px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0px 80px 0px;
+}
+
+.section5_regard h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #334455;
+}
+
+.section5_regard hr {
+	border: none;
+	width: 200px;
+	height: 3px;
+	margin: 10px auto;
+	background: #345;
+}
+
+.section5_regard span {
+	font-size: 36px;
+	text-shadow: 1px 2px 2px #999;
+	font-weight: bold;
+	color: #334455;
+	text-transform: uppercase;
+}
+
+.section5_regard span:before {
+	content: "-";
+}
+
+.section5_regard span:after {
+	content: "-";
+}
+
+.section5 .contact_box {
+	position: relative;
+	width: 440px;
+	height: 400px;
+	padding: 50px 10px;
+	margin: 0 auto 10vh;
+}
+
+.section5 .contact_box:before {
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 80px;
+
+	top: 0;
+	right: -40px;
+	border-top: 6px solid;
+	border-right: 6px solid;
+	color: #29323c;
+}
+
+.section5 .contact_box:after {
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 80px;
+
+	bottom: 0;
+	left: 0;
+	border-bottom: 5px solid;
+	border-left: 6px solid;
+	color: #29323c;
+}
+
+.contact_flex {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 30px;
+}
+
+.ideal {
+	flex: 1;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.contact_flex .ideal:first-of-type {
+	color: #abff00;
+}
+
+.contact_flex .ideal:nth-of-type(2) {
+	color: #ffd600;
+}
+
+.contact_flex .ideal:nth-of-type(3) {
+	color: #ff001b;
+}
+
+.contact_flex .ideal:nth-of-type(4) {
+	color: #00aeff;
+}
+
+.contact_box .study {
+	margin: 30px 0;
+	text-align: center;
+	height: 150px;
+}
+.contact_box .study p {
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
 }
