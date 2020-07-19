@@ -810,6 +810,7 @@ a {
 	height: 30px;
 	line-height: 30px;
 	font-size: 16px;
+	color: #00ffe7;
 }
 
 .contact_row {
@@ -857,19 +858,20 @@ a {
 	color: #fff;
 	background: #282a2d;
 }
-.qq_infobox .infobox:before{
+
+.qq_infobox .infobox:before {
 	display: none;
 	content: "";
-    position: absolute;
-    right: 0;
-    bottom: -8px;
-    left: 0;
-    width: 0;
-    height: 0;
-    margin: 0 auto;
-    border-top: 8px solid #282a2d;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
+	position: absolute;
+	right: 0;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 8px solid #282a2d;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
 }
 
 .wechat_infobox .infobox {
@@ -884,19 +886,20 @@ a {
 	color: #fff;
 	background: #282a2d;
 }
-.wechat_infobox .infobox:before{
+
+.wechat_infobox .infobox:before {
 	display: none;
 	content: "";
-    position: absolute;
-    right: 0;
-    bottom: -8px;
-    left: 0;
-    width: 0;
-    height: 0;
-    margin: 0 auto;
-    border-top: 8px solid #282a2d;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
+	position: absolute;
+	right: 0;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 8px solid #282a2d;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
 }
 
 .email_infobox .infobox {
@@ -911,24 +914,29 @@ a {
 	color: #fff;
 	background: #282a2d;
 }
-.email_infobox .infobox:before{
+
+.email_infobox .infobox:before {
 	display: none;
 	content: "";
-    position: absolute;
-    right: 0;
-    bottom: -8px;
-    left: 0;
-    width: 0;
-    height: 0;
-    margin: 0 auto;
-    border-top: 8px solid #282a2d;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
+	position: absolute;
+	right: 0;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 8px solid #282a2d;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
 }
 
-.contact_row li:hover{
+.contact_row li:hover {
 	background: #ffffff;
 }
-.contact_row li:hover .infobox,.email_infobox .infobox:before,.wechat_infobox .infobox:before,.qq_infobox .infobox:before{
+
+.contact_row li:hover .infobox,
+.email_infobox .infobox:before,
+.wechat_infobox .infobox:before,
+.qq_infobox .infobox:before {
 	display: block;
 }
